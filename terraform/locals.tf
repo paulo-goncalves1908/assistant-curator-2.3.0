@@ -37,10 +37,10 @@ locals {
           "version": "2021-06-14",
           "serviceUrl": "${ibm_resource_key.assistant.credentials.url}",
           "skillID": "${var.skillID}",
-          "transferNode": ["example1", "example2"],
+          "transferNode": ["atendimento-humano", "Bem-vindo"],
           "feedbackNode": ["example1", "example2"],
-          "relevantTopics": ["lancamento-ponto", "reembolso", "vagas", ],
-          "finalNode": ["example1"]
+          "relevantTopics": ["lancamento-ponto", "reembolso", "vagas", "senha esquecida"],
+          "finalNode": ["Em outros casos"]
         }
       },
       {
