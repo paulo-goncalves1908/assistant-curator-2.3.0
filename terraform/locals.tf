@@ -39,7 +39,7 @@ locals {
           "skillID": "${var.skillID}",
           "transferNode": ["example1", "example2"],
           "feedbackNode": ["example1", "example2"],
-          "relevantTopics": ["example1", "example2"],
+          "relevantTopics": ["lancamento-ponto", "reembolso"],
           "finalNode": ["example1"]
         }
       },
